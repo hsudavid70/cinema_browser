@@ -1,0 +1,25 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Cinema Browser</string>
+    <string name="detail_activity_name">Movie Details</string>
+
+    <string name="action_popular">Show Most Popular</string>
+    <string name="action_top_rated">Show Top Rated</string>
+    <string name="action_favourite">Show Favourite</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- imported -->
+    <string name="clear_cache_menu">Clear Caches</string>
+    <string name="clear_cache_complete_toast">Caches have been cleared</string>
+    <string name="imageview_description">Image Thumbnail</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+    <string name="format_rating">Rating: <xliff:g>%1$s</xliff:g>/10</string>
+    <string name="format_movie_review">Review By: <xliff:g>%1$s</xliff:g></string>
+    <string name="format_release_date">Release Date: <xliff:g>%1$s</xliff:g></string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">cinema_browser.dwhsu</string>
+    <string name="content_authority">com.skynet.dwhsu.cinema_browser</string>
+
+    <string name="fav_mark">Mark as faourite</string>
+</resources>

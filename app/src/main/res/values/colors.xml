@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#607D8B</color>
+    <color name="primary_dark">#263238</color>
+    <color name="accent">#00e5ff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#cccccc</color>
+
+    <!-- new -->
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+</resources>

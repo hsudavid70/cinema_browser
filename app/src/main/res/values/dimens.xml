@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="activity_horizontal_margin">3dp</dimen>
+    <dimen name="activity_vertical_margin">3dp</dimen>
+
+    <dimen name="title">0sp</dimen>
+
+    <dimen name="thumbnail_size">72dp</dimen>
+    <!-- new -->
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+    <!-- Define standard dimensions to comply with Holo-style grids and rhythm. -->
+
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+    <!-- Semantic definitions -->
+
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+
+    <dimen name="divider_size">1dp</dimen>
+    <dimen name="startoffset_size">2dp</dimen>
+
+    <dimen name="grid_item_width">160dp</dimen>
+</resources>

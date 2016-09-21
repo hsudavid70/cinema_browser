@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+    <FrameLayout
+       android:id="@+id/movieDetailFragment"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        tools:layout="@layout/movie_detail_fragment"/>
+    <!--fragment
+        android:id="@+id/fragment"
+        android:name="com.nanodegree.dwhsu.popular_movies.ui.FrameGrid.MovieGridFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/image_grid_fragment"/-->
+    <!--android:name="com.nanodegree.dwhsu.popular_movies.ui.ImageCacheGrid.ImageGridFragment"-->
+
+</LinearLayout>

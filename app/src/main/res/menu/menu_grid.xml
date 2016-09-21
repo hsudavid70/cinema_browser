@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/fav_mark"
+        android:title="@string/fav_mark"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        app:showAsAction="always"
+        android:visible="false">
+    </item>
+    <item android:id="@+id/action_popular"
+        android:title="@string/action_popular"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_top_rated"
+        android:title="@string/action_top_rated"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_favourite"
+        android:title="@string/action_favourite"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="never"/>
+</menu>
